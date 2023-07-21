@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DEFEW_project">
+<listeners>
+</listeners>
+
+  <test name="chromeTest">
+    <classes>
+      
+      <class name="blazedemo.testcases.firstpage__Test"/>
+      <class name="blazedemo.testcases.choose_flight_test"/>
+      <class name="blazedemo.testcases.passenger_detail_test"/>
+      <class name="blazedemo.testcases.negative_test"/>
+      
+      
+
+      
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
