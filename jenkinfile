@@ -1,5 +1,3 @@
-[14:50] Abhishek Deep
-
 pipeline {
 
     agent any
