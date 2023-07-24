@@ -1,1 +1,54 @@
+[14:50] Abhishek Deep
+
+pipeline {
+
+    agent any
+
+ 
+
+    stages {
+
+        stage('Build') {
+
+            steps {
+
+                // Replace with your build commands or scripts
+
+                sh 'echo "Building..."'
+
+            }
+
+        }
+
+ 
+
+        stage('Test') {
+
+            steps {
+
+                // Replace with your test commands or scripts
+
+                sh 'echo "Testing..."'
+
+            }
+
+        }
+
+ 
+
+        stage('Deploy') {
+
+            steps {
+
+                // Replace with your deployment commands or scripts
+
+                sh 'echo "Deploying..."'
+
+            }
+
+        }
+
+    }
+
+}
 
