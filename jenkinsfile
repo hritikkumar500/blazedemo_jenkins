@@ -10,7 +10,7 @@ pipeline{
          cron('0 06 * * *')
          }
     stages{
-        stage("code checout"){
+        stage("code checkout"){
             steps{
         bat "echo hello"
         }
